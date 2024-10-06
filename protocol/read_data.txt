@@ -1,14 +1,15 @@
 SYSTEM CONFIG DOWNLOAD
 
 >>mosi: 07 14 21 3A     94 33 C2
+                        148 51 194
 
 <<miso: 04 94 00 67
 
 >>mosi: 23 21                                                                            54 41 4E 49 54 41 2F 47 52 41 50 48 56 31 2F 53 59 53 54 45 4D 2F 53 59 53 54 45 4D 2E 54 58 54     7C
-                                                                                         TANITA/GRAPHV1/SYSTEM/SYSTEM.TXT                                                                    checksum? 
+        [SYSTEM?][READ?]                                                                 TANITA/GRAPHV1/SYSTEM/SYSTEM.TXT                                                                    checksum? 
 
 <<miso: 0D A1           00 00                   00                          00 00 00     54 00 00 00                                                                                         FD
-                                                                                         84 (filesize byte)                                                                                  checksum?
+                                                                                         [addr=84,blk=00][??][??]                                                                            checksum?
 
 >>mosi: 04 23 20 B8
 
@@ -33,21 +34,17 @@ SYSTEM CONFIG DOWNLOAD
 
 
 
-
-
-
-
 PROFILE CONFIG DOWNLOAD
 
 >>mosi: 07 14 21 3A     E0 3D 6C
-
+                        224 61 108
 <<miso: 04 94 00 67
 
 >>mosi: 22 21                                                                           54 41 4E 49 54 41 2F 47 52 41 50 48 56 31 2F 53 59 53 54 45 4D 2F 50 52 4F 46 31 2E 43 53 56        0E
                                                                                         TANITA/GRAPHV1/SYSTEM/PROF1.CSV                                                                     checksum? 
 
 <<miso: 0D A1           00 00                   00                          00 00 00    4B 00 00 00                                                                                         06
-                                                                                        75 (filesize in byte)                                                                               checksum?
+                                                                                        [addr=75,blk=00][??][??]                                                                            checksum?
 >>mosi: 04 23 20 B8
 
 <<miso: 29 A3           00 00                   20                          00 00 00    7B 30 2C 31 36 2C 7E 31 2C 32 2C 7E 33 2C 34 2C 4D 4F 2C 22 42 43 2D 36 30 31 22 2C 44 42 2C 22     DE
