@@ -1,0 +1,17 @@
+https://github.com/lunaearcus/heplex
+https://github.com/ruidfreitas/tanita_to_garmin
+https://github.com/takahiro-sasaki/TANITA_BODYMANAGER_PYTHON
+https://github.com/LonwaboMvovo/body-composition-tracker
+https://github.com/ccunknown/ccunknown.github.io
+https://github.com/cab938/tanita
+https://github.com/guzu/tanita-chart
+https://github.com/dblenkus/tanita
+https://github.com/Willjobs94/TanitaTracker
+https://github.com/eightypop/sc240scale
+https://github.com/gasperinm/tanita-csv-backup
+https://github.com/coniferconifer/ESP32-HX711-MQTT
+https://github.com/a-earthperson/Weighing_Scale_App
+https://github.com/Deiugarte/tanita
+https://github.com/kitamura-tetsuo/tanita2fitbit
+https://github.com/Evgen1000end/Tanita
+https://github.com/settings/keys
