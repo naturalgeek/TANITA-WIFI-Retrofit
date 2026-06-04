@@ -59,6 +59,16 @@ The two ESP32 SPI peripherals share SCK + CS and each watch one data line, so a
 single CS pulse yields a byte-aligned MOSI/MISO pair. Neither peripheral drives
 a pin, so the tap is invisible to the live bus.
 
+## Breadboard wiring drawing
+
+Physical layout (which board, which jumper) — Fritzing-breadboard style:
+
+![Breadboard wiring](tanita_sniffer_breadboard.svg)
+
+Regenerate with `python3 hardware/gen_breadboard_svg.py`. Wire colours in the
+drawing are **illustrative** — confirm the real CN1 wire/pin order on your unit
+(see "Identify the wires" below).
+
 ## Bill of materials
 
 | Ref | Part | Notes |
